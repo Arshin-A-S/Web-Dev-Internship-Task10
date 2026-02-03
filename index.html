@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Data</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <main>
+        <section id="api-task">
+            <h2>Explore the World</h2>
+            <p>Fetch real-time data from the REST Countries API.</p>
+            
+            <div class="search-box">
+                <input type="text" id="country-input" placeholder="Enter country name (e.g., Denmark)...">
+                <button id="fetch-btn">Search Country</button>
+            </div>
+
+            <div id="loader" class="hidden">Connecting to the global database...</div>
+            
+            <div id="country-info" class="country-card-container"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
